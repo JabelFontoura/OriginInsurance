@@ -44,7 +44,7 @@ Select `OriginInsurance.WebApi` executing profile and run.
 
 ## Technical Comments
 
-As suggested in the document, I tried to create and extensible and flexible caculation engine. To do that I created a concept of:
+As suggested in the document, I tried to create an extensible and flexible caculation engine. To do that I created a concept of:
 1. `InsuranceRules` that are classes representing the business logic. (e.g., user has income, user has a house, ...).
 2. `InsuranceTypes` that are classes representing each insurance type (e.g., auto, life, disability, home).
 3. Each `InsuranceType` contain a set of `InsuranceRules` that will be used to calculate the insurance score.
