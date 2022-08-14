@@ -51,4 +51,4 @@ As suggested in the document, I tried to create an extensible and flexible cacul
 4. Each `InsuranceRule` can be reused by any `InsuranceType`.
 5. If any `InsuranceType` calculation logic need to be change in the future we just need to add, remove or change it's `InsuranceRules` to represent the new requirements.
 
-Also I believe this solution could be improved to have this `InsuranceRules` and `InsuranceTypes` in a database to create a configurable solution for the user without the need to change the code to change it's rules. For this assignment I decided to stick with the first option to keep it a bit simpler.
+Also I believe this solution could be improved to have these `InsuranceRules` and `InsuranceTypes` in a database to create a configurable solution for the user without the need to change the code to change it's rules. For this assignment I decided to stick with the first option to keep it a bit simpler.
